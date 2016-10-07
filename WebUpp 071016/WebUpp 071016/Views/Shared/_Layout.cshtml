@@ -9,20 +9,22 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
 </head>
-<body>
-    <nav class="navbar navbar-collapse navbar-fixed-top">
+<body style="text-align:center; padding-top:100px;">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <header>
-            <div class="col-md-4"></div>
-            <div class="col-md-1"><a style="width:100%;" class="btn btn-info btn-default" href="/" role="button">Home</a></div>
-            <div class="col-md-1"><a style="width:100%;" class="btn btn-info btn-default" href="/" role="button">About</a></div>
-            <div class="col-md-1"><a style="width:100%;" class="btn btn-info btn-default" href="/" role="button">Contact</a></div>
-
-
+            <div style="padding-top:10px;" class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-1"><a style="width:100%; padding-top:10px;" class="btn btn-info btn-default" href="/" role="button">Home</a></div>
+                <div class="col-md-1"><a style="width:100%; padding-top:10px;" class="btn btn-info btn-default" href="/Home/About" role="button">About</a></div>
+                <div class="col-md-1"><a style="width:100%; padding-top:10px;" class="btn btn-info btn-default" href="/Home/Contact" role="button">Contact</a></div>
+            </div>
         </header>
     </nav>
     <div>
-        <h3>@ViewBag.Title</h3>
+        <h1>@ViewBag.Title</h1>
     </div>
     <div>
         @RenderBody()
