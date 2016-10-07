@@ -8,10 +8,24 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>_Layout</title>
+    <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div> 
+    <nav class="navbar navbar-collapse navbar-fixed-top">
+        <header>
+            <div class="col-md-4"></div>
+            <div class="col-md-1"><a style="width:100%;" class="btn btn-info btn-default" href="/" role="button">Home</a></div>
+            <div class="col-md-1"><a style="width:100%;" class="btn btn-info btn-default" href="/" role="button">About</a></div>
+            <div class="col-md-1"><a style="width:100%;" class="btn btn-info btn-default" href="/" role="button">Contact</a></div>
+
+
+        </header>
+    </nav>
+    <div>
+        <h3>@ViewBag.Title</h3>
+    </div>
+    <div>
+        @RenderBody()
     </div>
 </body>
 </html>
