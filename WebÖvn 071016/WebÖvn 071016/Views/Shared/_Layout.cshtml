@@ -15,6 +15,10 @@
         <h2>Välkommen till min vy:@ViewBag.Title</h2>
         <p>Navigering</p>
     </div>
+    <div>
+        @Html.ActionLink("Hem","Index")
+        @Html.ActionLink("Om mig","About")
+    </div>
     @RenderBody()
     <footer>
         <p> (CT4 2016)</p>
