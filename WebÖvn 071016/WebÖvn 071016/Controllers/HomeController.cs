@@ -13,5 +13,10 @@ namespace WebÖvn_071016.Controllers
         {
             return View();
         }
+
+        public ActionResult About()
+        {
+            return View();
+        }
     }
 }
