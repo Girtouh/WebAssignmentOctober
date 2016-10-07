@@ -8,9 +8,16 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>_Layout</title>
+    <title>@ViewBag.Title</title>
 </head>
 <body>
+    <div>
+        <h2>Välkommen till min vy:@ViewBag.Title</h2>
+        <p>Navigering</p>
+    </div>
     @RenderBody()
+    <footer>
+        <p> (CT4 2016)</p>
+    </footer>
 </body>
 </html>
