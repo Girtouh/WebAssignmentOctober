@@ -16,7 +16,7 @@ Bra
 w3schools(http://www.w3schools.com/): En väl designad hemsida, som utnyttjar hela utrymmet av skärmen. Hemsidan är responsiv, och
 allt på skärmen är anpassat till en bra och tydlig storlek.
 
-Slack(http://www.slack.com/):Samma som w3schools, hemsidan utnyttjar hela skärmen, med något extra utrymme på högersidan.
+Slack(http://www.slack.com/): Samma som w3schools, hemsidan utnyttjar hela skärmen, med något extra utrymme på högersidan.
 Sidan är responsiv, och text eller bilder anpassas både om sidan "Scale-as", och ifall en av sidans platskrävande flikar används.
 
 FlatUI Colors(https://flatuicolors.com/): En enkel, men ändå snyggt designad hemsida, som också utnyttjar hela skärmens utrymme,
