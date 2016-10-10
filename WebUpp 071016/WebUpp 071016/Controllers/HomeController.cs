@@ -17,6 +17,7 @@ namespace WebUpp_071016.Controllers
         {
             ExperienceList = new List<Experience>();
             ExperienceList.Add(new Experience() { Title = "Träd", WorkPlace = "En park", TimeStarted = "2015-09-12", TimeEnded = "2015-09-13" });
+            ExperienceList.Add(new Experience() { Title = "räd", WorkPlace = "En park", TimeStarted = "2015-09-12", TimeEnded = "2015-09-13" });
         }
 
         public ActionResult Index()
