@@ -3,5 +3,26 @@
     ViewBag.Title = "About";
 }
 
-<h2>About</h2>
+<div class="col-md-4"><h4>Tidigare job</h4>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>@item.Title | @item.WorkPlace | @item.TimeStarted - @item.TimeEnded</li>
+        }
+    </ul>
+    
+
+    </div>
+
+<div class="col-md-4">
+    <h4>Om mig</h4>
+
+
+</div>
+
+<div class="col-md-4">
+    <h4>Projekt upplagda på Github</h4>
+
+</div>
+
 

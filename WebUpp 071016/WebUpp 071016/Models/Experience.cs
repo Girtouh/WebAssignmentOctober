@@ -9,11 +9,11 @@ namespace WebUpp_071016.Models
     {
         public string Title { get; set; }
 
-        public string Workplace { get; set; }
+        public string WorkPlace { get; set; }
 
-        public decimal TimeStarted { get; set; }
+        public string TimeStarted { get; set; }
 
-        public decimal TimeEnded { get; set; }
+        public string TimeEnded { get; set; }
 
         public void WorkingPeriod()
         {
