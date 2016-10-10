@@ -1,10 +1,13 @@
-﻿
+﻿@model System.Collections.Generic.List<WebUpp_071016.Models.Experience>
 @{
     ViewBag.Title = "About";
 }
 
+<!--"Earlier employment" part of view-->
 <div class="col-md-4"><h4>Tidigare job</h4>
     <ul>
+
+        <!--Using Experience list-->
         @foreach (var item in Model)
         {
             <li>@item.Title | @item.WorkPlace | @item.TimeStarted - @item.TimeEnded</li>
@@ -14,15 +17,18 @@
 
     </div>
 
+<!--"About me" part of view-->
 <div class="col-md-4">
     <h4>Om mig</h4>
+    <p>Jag är 19 år gammal kille, och pluggar programmering på vidareutbildningen T4. Jag bor i Svedmyra, men pluggar i Skogås. Mm...</p>
 
 
 </div>
 
+<!--"Earlier work/link to github" part of view-->
 <div class="col-md-4">
-    <h4>Projekt upplagda på Github</h4>
-
+    <h4>Min Github</h4>
+    <a href="https://github.com/Girtouh" style="text-decoration:none;">Github</a>
 </div>
 
 

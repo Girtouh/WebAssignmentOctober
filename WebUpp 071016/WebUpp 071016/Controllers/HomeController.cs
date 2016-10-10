@@ -16,10 +16,10 @@ namespace WebUpp_071016.Controllers
         public HomeController()
         {
             ExperienceList = new List<Experience>();
-            ExperienceList.Add(new Experience() { Title = "Träd", WorkPlace = "En park", TimeStarted = "2015-09-12", TimeEnded = "2015-09-13" });
-            ExperienceList.Add(new Experience() { Title = "räd", WorkPlace = "En park", TimeStarted = "2015-09-12", TimeEnded = "2015-09-13" });
+            ExperienceList.Add(new Experience() { Title = "Sommarresurs på dagis", WorkPlace = "Farsta Förskolor", TimeStarted = "2015", TimeEnded = "2015" });
         }
 
+        //Returning said views
         public ActionResult Index()
         {
             return View();

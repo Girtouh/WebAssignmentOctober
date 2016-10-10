@@ -5,6 +5,7 @@ using System.Web;
 
 namespace WebUpp_071016.Models
 {
+    //Class Experience, to be added in list in About view
     public class Experience
     {
         public string Title { get; set; }
@@ -15,10 +16,6 @@ namespace WebUpp_071016.Models
 
         public string TimeEnded { get; set; }
 
-        public void WorkingPeriod()
-        {
-            string.Format("{0}-{1}", TimeStarted, TimeEnded);
-        }
 
     }
 }
