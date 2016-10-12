@@ -1,6 +1,6 @@
 # WebAssignmentOctober
 
-#Syftet med webplatsen#
+###Syftet med webplatsen###
 
 Syftet med webplasen är att informera om mig, vem jag är, vad jag gör och vad jag gjort. Webplatsen ska alltså upplysa eventuella företag eller anställare om mig, mina styrkor och svagheter, samt utbildning, tidigare arbete och även kort om min personlighet. Då denna sida handlar mest om ansökning inom programmeringsyrken, så kommer jag att nämna färdigheter som är nödvändiga för dessa yrken, och inte mer.
 
