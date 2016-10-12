@@ -6,7 +6,7 @@ Syftet med webplasen är att informera om mig, vem jag är, vad jag gör och vad
 
 ###Vem är jag?###
 
-Jag är Linus Skagerberg, 19 år och pluggar programmering. Jag är ganska ny inom programmering i allmänhet, men satsar på att försöka lära mig, men har viss grundutbildning inom kodspråken C#, HTML, CSS.
+Jag är Linus Skagerberg, 19 år bor i Svedmyra, och pluggar programmering i Skogås. Jag är ganska ny inom programmering i allmänhet, men satsar på att försöka lära mig, men har viss grundutbildning inom kodspråken C#, HTML, CSS.
 
 ###Tidigare arbeten###
 
