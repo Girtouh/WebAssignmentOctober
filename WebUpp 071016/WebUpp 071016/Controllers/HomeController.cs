@@ -11,13 +11,15 @@ namespace WebUpp_071016.Controllers
     {
         // GET: Home
 
-        List<Experience> ExperienceList;
+        T4DBWebAsEntities MyExperiencelist = new T4DBWebAsEntities();
 
-        public HomeController()
-        {
-            ExperienceList = new List<Experience>();
-            ExperienceList.Add(new Experience() { Title = "Sommarresurs på dagis", WorkPlace = "Farsta Förskolor", TimeStarted = "2015", TimeEnded = "2015" });
-        }
+        // List<Experiences> ExperienceList;
+
+        //public HomeController()
+        //{
+        //    ExperienceList = new List<Experiences>();
+        //    ExperienceList.Add(new Experiences() { Title = "Sommarresurs på dagis", WorkPlace = "Farsta Förskolor", TimeStarted = "2015", TimeEnded = "2015" });
+        //}
 
         //Returning said views
         public ActionResult Index()
@@ -27,7 +29,7 @@ namespace WebUpp_071016.Controllers
 
         public ActionResult About()
         {
-            return View(ExperienceList);
+            return View(new T4DBWebAsEntities().Experiences.ToList());
         }
 
         public ActionResult Contact()

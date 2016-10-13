@@ -6,7 +6,7 @@ using System.Web;
 namespace WebUpp_071016.Models
 {
     //Class Experience, to be added in list in About view
-    public class Experience
+    public class Experiences
     {
         public string Title { get; set; }
 
